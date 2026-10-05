@@ -109,13 +109,23 @@
         android:id="@+id/btnDetail"
         android:layout_width="170dp"
         android:layout_height="61dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="@color/black"
         android:text="Detail"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/materialCardView" />
+
+    <Button
+        android:id="@+id/btnToLima"
+        android:layout_width="165dp"
+        android:layout_height="55dp"
+        android:text="Pertemuan 5"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnKembali" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
