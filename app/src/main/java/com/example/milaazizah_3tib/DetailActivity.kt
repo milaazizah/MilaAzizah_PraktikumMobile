@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.milaazizah_3tib.databinding.ActivityDetailBinding
-import com.example.milaazizah_3tib.databinding.ActivityMainBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 class DetailActivity : AppCompatActivity() {

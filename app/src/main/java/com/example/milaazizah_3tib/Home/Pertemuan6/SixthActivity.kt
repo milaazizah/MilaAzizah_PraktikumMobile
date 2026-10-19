@@ -1,4 +1,4 @@
-package com.example.milaazizah_3tib.Pertemuan6
+package com.example.milaazizah_3tib.Home.Pertemuan6
 
 import android.os.Bundle
 import android.view.MenuItem
