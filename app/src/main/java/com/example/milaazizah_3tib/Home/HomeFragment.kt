@@ -12,6 +12,7 @@ import androidx.appcompat.app.AlertDialog
 import com.example.milaazizah_3tib.DetailActivity
 import com.example.milaazizah_3tib.Home.Pertemuan5.LimaActivity
 import com.example.milaazizah_3tib.Home.Pertemuan6.SixthActivity
+import com.example.milaazizah_3tib.Home.Pertemuan9.NinthActivity
 import com.example.milaazizah_3tib.LoginActivity
 import com.example.milaazizah_3tib.R
 import com.example.milaazizah_3tib.databinding.FragmentHomeBinding
@@ -68,11 +69,6 @@ class HomeFragment : Fragment() {
                 .show()
         }
 
-        binding.btnDetail.setOnClickListener {
-            val intent = Intent(requireContext(), DetailActivity::class.java)
-            startActivity(intent)
-        }
-
         binding.btnKembali.setOnClickListener {
 //            val intent = Intent(this, LoginActivity::class.java)
 //            startActivity(intent)
@@ -84,6 +80,10 @@ class HomeFragment : Fragment() {
         }
         binding.btnToSix.setOnClickListener {
             startActivity(Intent(requireContext(), SixthActivity::class.java))
+        }
+
+        binding.btnToNine.setOnClickListener {
+            startActivity(Intent(requireContext(), NinthActivity::class.java))
         }
 
         binding.btnLogout.setOnClickListener {
