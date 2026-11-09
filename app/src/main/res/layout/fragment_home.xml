@@ -143,6 +143,17 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnToSix" />
+
+        <Button
+            android:id="@+id/btnToTenth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pertemuan10"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnToSix" />
     </androidx.gridlayout.widget.GridLayout>
 
     <Button
@@ -151,10 +162,12 @@
         android:layout_height="wrap_content"
         android:text="Logout"
         app:layout_columnWeight="1"
-        app:layout_gravity="fill_horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/gridMenu" />
+        app:layout_constraintTop_toBottomOf="@+id/gridMenu"
+        app:layout_constraintVertical_bias="0.676"
+        app:layout_gravity="fill_horizontal" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
